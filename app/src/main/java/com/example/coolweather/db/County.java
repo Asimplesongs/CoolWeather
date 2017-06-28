@@ -6,7 +6,7 @@ import org.litepal.crud.DataSupport;
  * Created by samsung on 2017/6/27.
  */
 
-public class County extends DataSupport{
+public class County extends DataSupport {
     private int id;
     private String countyName;
     private String weatherId;

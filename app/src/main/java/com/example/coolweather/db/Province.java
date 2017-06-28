@@ -6,32 +6,32 @@ import org.litepal.crud.DataSupport;
  * Created by samsung on 2017/6/27.
  */
 
-public class Province extends DataSupport{
+public class Province extends DataSupport {
     private int id;
-    private String provinceNmae;
+    private String provinceName;
     private int provinceCode;
 
-    public int getId(){
+    public int getId() {
         return id;
     }
 
-    public void setId(int id){
-        this.id=id;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getProvinceNmae(){
-        return provinceNmae;
+    public String getProvinceName() {
+        return provinceName;
     }
 
-    public void setProvinceNmae(String provinceNmae){
-        this.provinceNmae=provinceNmae;
+    public void setProvinceName(String provinceName) {
+        this.provinceName = provinceName;
     }
 
-    public int getProvinceCode(){
+    public int getProvinceCode() {
         return provinceCode;
     }
 
-    public void setProvinceCode(int provinceCode){
-        this.provinceCode=provinceCode;
+    public void setProvinceCode(int provinceCode) {
+        this.provinceCode = provinceCode;
     }
 }
